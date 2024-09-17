@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version */
+}
+
+.container {
+    width: 350px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.binance-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #4285F4;
+    object-fit: cover;
+}
+
+.content {
+    color: #fff;
+}
+
+.channels {
+    margin-bottom: 20px;
+}
+
+.channel-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.channel-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.channel-btn {
+    flex-grow: 1;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none; /* Ensure links are not underlined */
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.channel-btn:hover {
+    background-color: #444;
+}
+
+.join-text {
+    background-color: #4285F4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.verify-btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 250px;
+    background-color: #4285F4;
+    color: #fff;
+    text-decoration: none; /* Ensure links are not underlined */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.verify-btn:hover {
+    background-color: #357ae8;
+}
